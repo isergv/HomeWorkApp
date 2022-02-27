@@ -1,6 +1,6 @@
 public class HomeWorkApp {
     public static void main(String[] args) {
-        //ДЗ 1 занятие
+        //ДЗ 1 занятие тест
         System.out.println("Домашнее задание первого занятия");
         printThreeWords();
         checkSumSign();
