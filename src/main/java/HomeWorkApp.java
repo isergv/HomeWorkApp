@@ -1,7 +1,7 @@
 public class HomeWorkApp {
     public static void main(String[] args) {
-        //ДЗ 1 занятие
-
+        //ДЗ 1 занятие тест
+        System.out.println("Домашнее задание первого занятия");
         printThreeWords();
         checkSumSign();
         printColor();
@@ -19,14 +19,14 @@ public class HomeWorkApp {
     public static void checkSumSign() {
         System.out.println("--- ДЗ1 пункт 3 ---");
         int a = 10;
-        int b = -1;
+        int b = -11;
         if (a + b >= 0) {
             System.out.println("Сумма положительная");
         } else {
-                System.out.println("Сумма отрицательная");
-            };
-        System.out.println();
+            System.out.println("Сумма отрицательная");
         }
+        System.out.println();
+    }
 
     public static void printColor() {
         System.out.println("--- ДЗ1 пункт 4 ---");
@@ -52,5 +52,4 @@ public class HomeWorkApp {
         }
         System.out.println();
     }
-
 }
