@@ -1,5 +1,7 @@
 package lesson2;
 
+import lesson1.HomeWorkApp;
+
 public class HomeWorkAppLesson2 {
     public static void main(String[] args) {
         System.out.println(whatSum(5, 10));
