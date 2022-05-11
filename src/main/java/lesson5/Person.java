@@ -9,51 +9,24 @@ public class Person {
     private int pay;
     private int age;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public Person(String name, String level, String email, String phoneNumber, int pay, int age) {
         this.name = name;
-    }
-
-    public String getLevel() {
-        return level;
-    }
-
-    public void setLevel(String level) {
         this.level = level;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }
-
-    public int getPay() {
-        return pay;
-    }
-
-    public void setPay(int pay) {
         this.pay = pay;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
         this.age = age;
+    }
+
+    public void print() {
+        if (age > 40) {
+            System.out.println("ФИО: " + name + ";");
+            System.out.println("Должность: " + level + ";");
+            System.out.println("Email: " + email + ";");
+            System.out.println("Телефон: " + phoneNumber + ";");
+            System.out.println("Зарплата: " + pay + ";");
+            System.out.println("Возраст: " + age + ";");
+            System.out.println();
+        }
     }
 }
